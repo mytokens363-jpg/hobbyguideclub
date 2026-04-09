@@ -1,0 +1,25 @@
+baseURL = "https://hobbyguideclub.com/"
+languageCode = "en-us"
+title = "Hobby Guide Club"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  description = "Hobby guides, DIY tips, and enthusiast resources for every interest."
+  author = "Hobby Guide Club"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
