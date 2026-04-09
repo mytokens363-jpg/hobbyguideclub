@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hobbyguideclub",
+  "compatibility_date": "2026-04-09",
+  "observability": {
+    "enabled": true
+  },
+  "pages_build_output_dir": "public",
+  "build": {
+    "command": "hugo --minify"
+  },
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
